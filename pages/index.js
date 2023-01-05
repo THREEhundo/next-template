@@ -1,5 +1,5 @@
 import { server } from '../config/index'
-import Head from 'next/head'
+import Meta from '../components/Meta'
 import Header from '../components/Header'
 import ArticleList from '../components/ArticleList'
 import Image from 'next/image'
@@ -8,10 +8,7 @@ import styles from '../styles/Layout.module.css'
 export default function Home({ articles }) {
 	return (
 		<div>
-			<Head>
-				<title>WebDev Newz</title>
-				<meta name='keywords' content='web development, progrmming' />
-			</Head>
+			<Meta />
 			<Header />
 			<ArticleList articles={articles} />
 		</div>

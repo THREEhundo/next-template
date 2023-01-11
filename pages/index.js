@@ -4,12 +4,15 @@ import Header from '../components/Header'
 import ArticleList from '../components/ArticleList'
 import Image from 'next/image'
 import styles from '../styles/Layout.module.css'
+import SleepForm from '../components/SleepForm'
 
 export default function Home({ articles }) {
 	return (
 		<div>
 			<Meta />
+
 			<Header />
+			<SleepForm />
 			<ArticleList articles={articles} />
 		</div>
 	)

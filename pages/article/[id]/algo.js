@@ -21,7 +21,12 @@
 
 //*** Temperature Minimum ***/
 
-//* Phase Advance - Viewing light 4-5 hours after your temperature minimum will shift so that you will wake up earlier and go to bed earlier.
-//* Phase Delay - Viewing bright light before your temperature minimum will make you go to bed later and wake up later.
-//*
-//*
+//* Phase Advance - Viewing light & exercising 4-5 hours after your temperature minimum will shift so that you will wake up earlier and go to bed earlier.
+//* Phase Delay - Viewing bright light & exercising before your temperature minimum will make you go to bed later and wake up later.
+//* 1-3 hours can be shifted per day
+
+//*** Time Zone Difference / Hours you want to shift  ***/
+
+function schedule(wakingTime, earlyLight) {
+	//* Returns nested arrays
+}
